@@ -36,6 +36,10 @@ p[epub|type~="z3998:valediction"],
 	display: none;
 }
 
+abbr.name{
+	white-space: nowrap;
+}
+
 b{
 	font-weight: normal;
 	font-variant: small-caps;
