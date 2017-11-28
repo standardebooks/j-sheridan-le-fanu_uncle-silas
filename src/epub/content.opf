@@ -38,7 +38,7 @@
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/14851</meta>
 		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/14851</meta>
 		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/14851</meta>
-		<meta property="se:subject">Mystery thriller</meta>
+		<meta property="se:subject">Mystery</meta>
 		<dc:description id="description">After her father dies, heiress Maud Ruthyn becomes ward to her disreputable uncle Silas, once an infamous rake and gambler and tainted by the apparent suicide of a man to whom Silas owed a gambling debt.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
