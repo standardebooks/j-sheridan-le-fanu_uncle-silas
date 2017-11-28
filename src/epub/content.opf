@@ -19,6 +19,13 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Uncle Silas</dc:title>
 		<meta property="file-as" refines="#title">Uncle Silas</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Tale of Bartram-Haugh</dc:title>
+		<meta property="file-as" refines="#subtitle">Tale of Bartram-Haugh, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Uncle Silas: A Tale of Bartram-Haugh</dc:title>
+		<meta property="file-as" refines="#fulltitle">Uncle Silas</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Orphans -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Psychological fiction</dc:subject>
 		<dc:subject id="subject-3">Governesses -- Fiction</dc:subject>
@@ -31,43 +38,48 @@
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/14851</meta>
 		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/14851</meta>
 		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/14851</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Mystery thriller</meta>
+		<dc:description id="description">After her father dies, heiress Maud Ruthyn becomes ward to her disreputable uncle Silas, once an infamous rake and gambler and tainted by the apparent suicide of a man to whom Silas owed a gambling debt.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;Uncle Silas&lt;/i&gt; is told from the account of Maud Ruthyn, an heiress living with her reclusive father, Austin Ruthyn. She learns about her uncle, Silas Ruthyn, and his past reputation marred by gambling and the apparent suicide of a man to which Silas owed a large gambling debt that occurred in a locked room in Silas’ residence.&lt;/p&gt;
+			&lt;p&gt;In order to clear the Ruthyn name of the rumors of Silas’ past, Austin names Silas as Maud’s guardian through Austin’s will upon his death. Also noted in Austin’s will, Silas would inherit the fortune left to Maud should she die while under his ward. Maud befriends her cousin Millicent and quickly adjusts to life under Silas’ care, despite his often frightening demeanor. Although Silas has proclaimed that he’s a newly reformed Christian, Maud becomes increasingly suspicious of her uncle’s motives as life for her becomes increasingly unpleasant.&lt;/p&gt;
+			&lt;p&gt;The story of Maud Ruthyn and her uncle Silas evolved through multiple iterations, beginning with the short story &lt;i&gt;A Passage in the Secret History of an Irish Countess&lt;/i&gt; in 1839, before ultimately becoming the three-volume novel published in 1864. This ebook reproduces a revised, two-volume version released a year later.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/14851</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<dc:source>https://books.google.com/books?id=DUVCAQAAMAAJ</dc:source>
+		<meta property="se:production-notes">The spelling inconsistencies of the original text have been retained in this production.</meta>
+		<meta property="se:word-count">167047</meta>
+		<meta property="se:reading-ease.flesch">70.13</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Uncle_Silas</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-sheridan-le-fanu_uncle-silas</meta>
 		<dc:creator id="author">J. Sheridan Le Fanu</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Le Fanu, J. Sheridan</meta>
+		<meta property="se:name.person.full-name" refines="#author">Joseph Thomas Sheridan Le Fanu</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/J._Sheridan_Le_Fanu</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50000709</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">Rembrandt</dc:contributor>
+		<meta property="file-as" refines="#artist">Rembrandt</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Rembrandt</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79142935</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanna</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Bob McKillip</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-2">McKillip, Bob</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team.</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Kenneth Williams</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Williams, Kenneth</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://scriptdaemon.me</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -82,14 +94,156 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/chapter-1-1.xhtml" id="chapter-1-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-2.xhtml" id="chapter-1-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-3.xhtml" id="chapter-1-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-4.xhtml" id="chapter-1-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-5.xhtml" id="chapter-1-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-6.xhtml" id="chapter-1-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-7.xhtml" id="chapter-1-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-8.xhtml" id="chapter-1-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-9.xhtml" id="chapter-1-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-10.xhtml" id="chapter-1-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-11.xhtml" id="chapter-1-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-12.xhtml" id="chapter-1-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-13.xhtml" id="chapter-1-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-14.xhtml" id="chapter-1-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-15.xhtml" id="chapter-1-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-16.xhtml" id="chapter-1-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-17.xhtml" id="chapter-1-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-18.xhtml" id="chapter-1-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-19.xhtml" id="chapter-1-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-20.xhtml" id="chapter-1-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-21.xhtml" id="chapter-1-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-22.xhtml" id="chapter-1-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-23.xhtml" id="chapter-1-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-24.xhtml" id="chapter-1-24.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-25.xhtml" id="chapter-1-25.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-26.xhtml" id="chapter-1-26.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-27.xhtml" id="chapter-1-27.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-28.xhtml" id="chapter-1-28.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-29.xhtml" id="chapter-1-29.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-30.xhtml" id="chapter-1-30.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-31.xhtml" id="chapter-1-31.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-32.xhtml" id="chapter-1-32.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-33.xhtml" id="chapter-1-33.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-34.xhtml" id="chapter-1-34.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-35.xhtml" id="chapter-1-35.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-1.xhtml" id="chapter-2-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-2.xhtml" id="chapter-2-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-3.xhtml" id="chapter-2-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-4.xhtml" id="chapter-2-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-5.xhtml" id="chapter-2-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-6.xhtml" id="chapter-2-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-7.xhtml" id="chapter-2-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-8.xhtml" id="chapter-2-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-9.xhtml" id="chapter-2-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-10.xhtml" id="chapter-2-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-11.xhtml" id="chapter-2-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-12.xhtml" id="chapter-2-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-13.xhtml" id="chapter-2-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-14.xhtml" id="chapter-2-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-15.xhtml" id="chapter-2-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-16.xhtml" id="chapter-2-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-17.xhtml" id="chapter-2-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-18.xhtml" id="chapter-2-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-19.xhtml" id="chapter-2-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-20.xhtml" id="chapter-2-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-21.xhtml" id="chapter-2-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-22.xhtml" id="chapter-2-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-23.xhtml" id="chapter-2-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-24.xhtml" id="chapter-2-24.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-25.xhtml" id="chapter-2-25.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-26.xhtml" id="chapter-2-26.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-27.xhtml" id="chapter-2-27.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-28.xhtml" id="chapter-2-28.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-29.xhtml" id="chapter-2-29.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-30.xhtml" id="chapter-2-30.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/conclusion.xhtml" id="conclusion.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/volume-1.xhtml" id="volume-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/volume-2.xhtml" id="volume-2.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="chapter-1-1.xhtml"/>
+		<itemref idref="chapter-1-2.xhtml"/>
+		<itemref idref="chapter-1-3.xhtml"/>
+		<itemref idref="chapter-1-4.xhtml"/>
+		<itemref idref="chapter-1-5.xhtml"/>
+		<itemref idref="chapter-1-6.xhtml"/>
+		<itemref idref="chapter-1-7.xhtml"/>
+		<itemref idref="chapter-1-8.xhtml"/>
+		<itemref idref="chapter-1-9.xhtml"/>
+		<itemref idref="chapter-1-10.xhtml"/>
+		<itemref idref="chapter-1-11.xhtml"/>
+		<itemref idref="chapter-1-12.xhtml"/>
+		<itemref idref="chapter-1-13.xhtml"/>
+		<itemref idref="chapter-1-14.xhtml"/>
+		<itemref idref="chapter-1-15.xhtml"/>
+		<itemref idref="chapter-1-16.xhtml"/>
+		<itemref idref="chapter-1-17.xhtml"/>
+		<itemref idref="chapter-1-18.xhtml"/>
+		<itemref idref="chapter-1-19.xhtml"/>
+		<itemref idref="chapter-1-20.xhtml"/>
+		<itemref idref="chapter-1-21.xhtml"/>
+		<itemref idref="chapter-1-22.xhtml"/>
+		<itemref idref="chapter-1-23.xhtml"/>
+		<itemref idref="chapter-1-24.xhtml"/>
+		<itemref idref="chapter-1-25.xhtml"/>
+		<itemref idref="chapter-1-26.xhtml"/>
+		<itemref idref="chapter-1-27.xhtml"/>
+		<itemref idref="chapter-1-28.xhtml"/>
+		<itemref idref="chapter-1-29.xhtml"/>
+		<itemref idref="chapter-1-30.xhtml"/>
+		<itemref idref="chapter-1-31.xhtml"/>
+		<itemref idref="chapter-1-32.xhtml"/>
+		<itemref idref="chapter-1-33.xhtml"/>
+		<itemref idref="chapter-1-34.xhtml"/>
+		<itemref idref="chapter-1-35.xhtml"/>
+		<itemref idref="chapter-2-1.xhtml"/>
+		<itemref idref="chapter-2-2.xhtml"/>
+		<itemref idref="chapter-2-3.xhtml"/>
+		<itemref idref="chapter-2-4.xhtml"/>
+		<itemref idref="chapter-2-5.xhtml"/>
+		<itemref idref="chapter-2-6.xhtml"/>
+		<itemref idref="chapter-2-7.xhtml"/>
+		<itemref idref="chapter-2-8.xhtml"/>
+		<itemref idref="chapter-2-9.xhtml"/>
+		<itemref idref="chapter-2-10.xhtml"/>
+		<itemref idref="chapter-2-11.xhtml"/>
+		<itemref idref="chapter-2-12.xhtml"/>
+		<itemref idref="chapter-2-13.xhtml"/>
+		<itemref idref="chapter-2-14.xhtml"/>
+		<itemref idref="chapter-2-15.xhtml"/>
+		<itemref idref="chapter-2-16.xhtml"/>
+		<itemref idref="chapter-2-17.xhtml"/>
+		<itemref idref="chapter-2-18.xhtml"/>
+		<itemref idref="chapter-2-19.xhtml"/>
+		<itemref idref="chapter-2-20.xhtml"/>
+		<itemref idref="chapter-2-21.xhtml"/>
+		<itemref idref="chapter-2-22.xhtml"/>
+		<itemref idref="chapter-2-23.xhtml"/>
+		<itemref idref="chapter-2-24.xhtml"/>
+		<itemref idref="chapter-2-25.xhtml"/>
+		<itemref idref="chapter-2-26.xhtml"/>
+		<itemref idref="chapter-2-27.xhtml"/>
+		<itemref idref="chapter-2-28.xhtml"/>
+		<itemref idref="chapter-2-29.xhtml"/>
+		<itemref idref="chapter-2-30.xhtml"/>
+		<itemref idref="conclusion.xhtml"/>
+		<itemref idref="volume-1.xhtml"/>
+		<itemref idref="volume-2.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
