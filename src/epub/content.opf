@@ -176,6 +176,7 @@
 		<itemref idref="dedication.xhtml"/>
 		<itemref idref="preface.xhtml"/>
 		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="volume-1.xhtml"/>
 		<itemref idref="chapter-1-1.xhtml"/>
 		<itemref idref="chapter-1-2.xhtml"/>
 		<itemref idref="chapter-1-3.xhtml"/>
@@ -211,6 +212,7 @@
 		<itemref idref="chapter-1-33.xhtml"/>
 		<itemref idref="chapter-1-34.xhtml"/>
 		<itemref idref="chapter-1-35.xhtml"/>
+		<itemref idref="volume-2.xhtml"/>
 		<itemref idref="chapter-2-1.xhtml"/>
 		<itemref idref="chapter-2-2.xhtml"/>
 		<itemref idref="chapter-2-3.xhtml"/>
@@ -242,8 +244,6 @@
 		<itemref idref="chapter-2-29.xhtml"/>
 		<itemref idref="chapter-2-30.xhtml"/>
 		<itemref idref="conclusion.xhtml"/>
-		<itemref idref="volume-1.xhtml"/>
-		<itemref idref="volume-2.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
