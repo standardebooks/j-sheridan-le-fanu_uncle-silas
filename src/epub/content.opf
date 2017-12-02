@@ -50,7 +50,6 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/14851</dc:source>
 		<dc:source>https://books.google.com/books?id=DUVCAQAAMAAJ</dc:source>
-		<meta property="se:production-notes">The spelling inconsistencies of the original text have been retained in this production.</meta>
 		<meta property="se:word-count">167047</meta>
 		<meta property="se:reading-ease.flesch">70.13</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Uncle_Silas</meta>
