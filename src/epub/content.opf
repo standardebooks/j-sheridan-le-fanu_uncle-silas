@@ -39,12 +39,12 @@
 		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/14851</meta>
 		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/14851</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">After her father dies, heiress Maud Ruthyn becomes ward to her disreputable uncle Silas, once an infamous rake and gambler and tainted by the apparent suicide of a man to whom Silas owed a gambling debt.</dc:description>
+		<dc:description id="description">An heiress becomes ward to her disreputable uncle with an unsavory past, tainted by the apparent suicide of a man to whom he owed a large gambling debt, and must help clear his name.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Uncle Silas&lt;/i&gt; is told from the account of Maud Ruthyn, an heiress living with her reclusive father, Austin Ruthyn. She learns about her uncle, Silas Ruthyn, and his past reputation marred by gambling and the apparent suicide of a man to which Silas owed a large gambling debt that occurred in a locked room in Silas’ residence.&lt;/p&gt;
 			&lt;p&gt;In order to clear the Ruthyn name of the rumors of Silas’ past, Austin names Silas as Maud’s guardian through Austin’s will upon his death. Also noted in Austin’s will, Silas would inherit the fortune left to Maud should she die while under his ward. Maud befriends her cousin Millicent and quickly adjusts to life under Silas’ care, despite his often frightening demeanor. Although Silas has proclaimed that he’s a newly reformed Christian, Maud becomes increasingly suspicious of her uncle’s motives as life for her becomes increasingly unpleasant.&lt;/p&gt;
-			&lt;p&gt;The story of Maud Ruthyn and her uncle Silas evolved through multiple iterations, beginning with the short story &lt;i&gt;A Passage in the Secret History of an Irish Countess&lt;/i&gt; in 1839, before ultimately becoming the three-volume novel published in 1864. This ebook reproduces a revised, two-volume version released a year later.&lt;/p&gt;
+			&lt;p&gt;The story of Maud Ruthyn and her uncle Silas evolved through multiple iterations, beginning with the short story “A Passage in the Secret History of an Irish Countess” in 1839, before ultimately becoming the three-volume novel published in 1864. This ebook reproduces a revised, two-volume version released a year later.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
@@ -61,8 +61,8 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50000709</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">Rembrandt</dc:contributor>
-		<meta property="file-as" refines="#artist">Rembrandt</meta>
+		<dc:contributor id="artist">Rembrandt Harmenszoon van Rijn</dc:contributor>
+		<meta property="file-as" refines="#artist">van Rijn, Rembrandt Harmenszoon</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Rembrandt</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79142935</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -72,7 +72,7 @@
 		<dc:contributor id="transcriber-2">Bob McKillip</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">McKillip, Bob</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team.</dc:contributor>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
