@@ -24,6 +24,14 @@ span[epub|type~="subtitle"]{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:letter"] p{
+	text-indent: 1em;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
@@ -42,16 +50,6 @@ span[epub|type~="subtitle"]{
 	display: none;
 }
 
-p.i2{
-	text-indent: -1em;
-	padding-left: 3em;
-}
-
-p.i3.right{
-	padding-left: 0;
-	padding-right: 3em;
-}
-
 p > span.signature{
 	float: right;
 }
@@ -65,15 +63,20 @@ b{
 	font-variant: small-caps;
 }
 
+blockquote footer{
+	margin-top: 0;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
-.signature{
-	font-variant: small-caps;
+footer p[epub|type~="z3998:valediction"]{
+	text-align: left;
+	text-indent: 1rem;
 }
 
-.right{
-	text-align: right;
+.signature{
+	font-variant: small-caps;
 }
