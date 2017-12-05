@@ -74,7 +74,7 @@ footer{
 
 footer p[epub|type~="z3998:valediction"]{
 	text-align: left;
-	text-indent: 1rem;
+	text-indent: 1em;
 }
 
 .signature{
