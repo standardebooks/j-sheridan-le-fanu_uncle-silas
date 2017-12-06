@@ -16,16 +16,8 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-[epub|type~="z3998:letter"]{
-	margin: 1em;
-}
-
-[epub|type~="z3998:letter"] + p{
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
-}
-
-[epub|type~="z3998:letter"] p{
-	text-indent: 1em;
 }
 
 [epub|type~="z3998:letter"] header{
@@ -50,10 +42,6 @@ span[epub|type~="subtitle"]{
 	display: none;
 }
 
-p > span.signature{
-	float: right;
-}
-
 abbr.name{
 	white-space: nowrap;
 }
@@ -63,18 +51,9 @@ b{
 	font-variant: small-caps;
 }
 
-blockquote footer{
-	margin-top: 0;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
-}
-
-footer p[epub|type~="z3998:valediction"]{
-	text-align: left;
-	text-indent: 1em;
 }
 
 .signature{
