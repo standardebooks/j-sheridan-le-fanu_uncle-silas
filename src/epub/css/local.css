@@ -59,3 +59,8 @@ footer{
 .signature{
 	font-variant: small-caps;
 }
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-indent: 0;
+}
