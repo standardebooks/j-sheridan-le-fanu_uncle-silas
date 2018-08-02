@@ -42,15 +42,6 @@ span[epub|type~="subtitle"]{
 	display: none;
 }
 
-abbr.name{
-	white-space: nowrap;
-}
-
-b{
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
