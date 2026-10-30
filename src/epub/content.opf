@@ -85,7 +85,7 @@
 		<link href="https://id.loc.gov/authorities/names/n79142935.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Shell, Suzanna</meta>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Bob McKillip</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">McKillip, Bob</meta>
