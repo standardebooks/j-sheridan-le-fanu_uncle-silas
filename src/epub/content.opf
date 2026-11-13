@@ -74,7 +74,7 @@
 		<dc:creator id="author">J. Sheridan Le Fanu</dc:creator>
 		<meta property="file-as" refines="#author">Le Fanu, J. Sheridan</meta>
 		<meta property="schema:alternateName" refines="#author">Joseph Thomas Sheridan Le Fanu</meta>
-		<link href="https://en.wikipedia.org/wiki/J._Sheridan_Le_Fanu" refines="#author" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Sheridan_Le_Fanu" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50000709.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
